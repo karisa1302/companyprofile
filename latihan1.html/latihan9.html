@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Company</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        .home {
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+            url('c:\Users\rpl\Downloads\bery.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .about-image {
+            min-height: 100vh;
+            background-image: url('c:\Users\rpl\Downloads\yellow.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .about-text {
+            background: #8a8cf7;
+            color: white;
+            min-height: 100vh;
+        }
+
+        .services {
+            padding: 80px 0;
+        }
+
+        .contact {
+            background: #8789ff;
+            color: white;
+            padding: 80px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+            MY COMPANY
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<section id="home" class="home d-flex align-items-center text-white">
+
+    <div class="container">
+
+        <h1 class="display-4">
+            WELCOME TO MY COMPANY
+        </h1>
+
+        <p>
+            Halo, selamat datang di website saya.
+            Di sini saya akan memperkenalkan sedikit tentang diri saya.
+        </p>
+
+        <a href="#about" class="btn btn-light">
+            Lihat Selengkapnya
+        </a>
+
+    </div>
+
+</section>
+
+
+<section id="about">
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-md-6 about-text p-5 d-flex
+                        flex-column justify-content-center">
+
+                <h2>
+                    MY COMPANY
+                </h2>
+
+                <p>
+                    Aku adalah seorang yang masih terus belajar dan
+                    mencoba berbagai hal-hal kecil maupun besar. Aku suka tentang dunia psikologi
+                    karna saya inggin belajar menggenai sifat-sifat yang kadang berubah-rubah
+                    dan susah di tebak, aku inggin belajar lebih
+                    
+                </p>
+
+                <p>
+                    Menurutku,setiap langkah,setiap pengalaman
+                    dapat memberikan pengalaman serta pelajaran yang
+                    dapat kita ambil untuk menjadi pelajaran agar lebih baik kedepannya.
+                </p>
+
+            </div>
+
+            <div class="col-md-6 about-image"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="services" class="services">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5">
+            Keterampilan
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+
+                <div class="card text-center p-3 h-100">
+
+                    <i class="bi bi-code-slash fs-1"></i>
+
+                    <h4>Website</h4>
+
+                    <p>
+                        Belajar membuat website menggunakan
+                        HTML, CSS, dan Bootstrap.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card text-center p-3 h-100">
+
+                    <i class="bi bi-palette fs-1"></i>
+
+                    <h4>Desain</h4>
+
+                    <p>
+                        Suka mencoba membuat desain dan
+                        mengembangkan ide kreatif.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card text-center p-3 h-100">
+
+                    <i class="bi bi-lightbulb fs-1"></i>
+
+                    <h4>Belajar</h4>
+
+                    <p>
+                        Terus mencoba hal baru untuk
+                        menambah pengalaman dan kemampuan.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="portfolio" class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5">
+            Portfolio
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100">
+
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                         class="card-img-top"
+                         alt="Website">
+
+                    <div class="card-body">
+
+                        <h4>Website</h4>
+
+                        <p>
+                            Saya mencoba membuat beberapa website dengan
+                            menggunakan project yang saya ambil dari platfrom
+                            sosial media contohnya seperti threads dan platfrom lainnya.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card h-100">
+
+                    <img src="data:image/webp;base64,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"
+                         class="card-img-top"
+                         alt="Memasak">
+
+                    <div class="card-body">
+
+                        <h4>Menggambar</h4>
+
+                        <p>
+                            Saya suka menggambar, karna menggambar bisa membuat
+                            tenang dan bisa mengisi waktu-waktu saya.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card h-100">
+
+                    <img src="https://th.bing.com/th/id/OIP.kkhzKV4B1AN0xW_kix5YVwHaE8?w=252&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+                         class="card-img-top"
+                         alt="Kegiatan">
+
+                    <div class="card-body">
+
+                        <h4>Kegiatan</h4>
+
+                        <p>
+                            Saya suka ber olahraga, terutama
+                            ber olahraga badminton dan juga joging,
+                            Sebagai bahan pengalaman saya mengikuti lomba-lomba badminton,
+                            terutama untuk melatih mental dan untuk pembelajaran bagi saya.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+    <div class="container">
+
+        <h2 class="text-center">
+            Contact
+        </h2>
+
+        <div class="text-center mt-4">
+
+            <p>
+                <i class="bi bi-person"></i>
+                Nama: Karisa Zahra Nafisha.
+
+            <p>
+                <i class="bi bi-envelope"></i>
+                Email: karisasyantik@gmail.com
+            </p>
+
+            <p>
+                <i class="bi bi-telephone"></i>
+                Telepon: 0858sisanyakapankapan
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="text-center bg-dark text-white p-3">
+
+    <p class="mb-0">
+        © 2026 My Company
+    </p>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

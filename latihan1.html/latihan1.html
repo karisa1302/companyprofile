@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Ekstrakurikuler Bola Voli</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)),
+                  url("https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1600&q=80");
+      background-size: cover;
+      background-position: center;
+      min-height: 550px;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+
+    .section-title {
+      font-weight: bold;
+      color: #0d6efd;
+    }
+
+    .card {
+      transition: .3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    }
+
+    footer {
+      background: #212529;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">VOLLEY CLUB</a>
+
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#beranda">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tentang">Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kegiatan">Kegiatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jadwal">Jadwal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kontak">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section id="beranda" class="hero">
+  <div class="container text-center">
+    <h1>Ekstrakurikuler Bola Voli</h1>
+    <p class="lead">
+      Bangun kekompakan, tingkatkan kemampuan, dan raih prestasi bersama!
+    </p>
+    <a href="#tentang" class="btn btn-primary btn-lg">
+      Selengkapnya
+    </a>
+  </div>
+</section>
+
+
+<section id="tentang" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Tentang Ekstrakurikuler</h2>
+      <p class="text-muted">
+        Kegiatan olahraga untuk mengembangkan bakat dan minat siswa dalam bola voli.
+      </p>
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4">
+        <img
+          src="data:image/webp;base64,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"
+          class="img-fluid rounded shadow"
+          alt="Bola voli">
+      </div>
+
+      <div class="col-md-6">
+        <h3>Volley Club Sekolah</h3>
+        <p>
+          Ekstrakurikuler bola voli merupakan kegiatan olahraga yang bertujuan
+          mengembangkan kemampuan siswa dalam bermain bola voli.
+        </p>
+        <p>
+          Selain meningkatkan keterampilan olahraga, kegiatan ini juga melatih
+          disiplin, kerja sama, sportivitas, dan rasa percaya diri.
+        </p>
+
+        <div class="row text-center mt-4">
+          <div class="col-4">
+            <h3 class="text-primary">30+</h3>
+            <small>Anggota</small>
+          </div>
+          <div class="col-4">
+            <h3 class="text-primary">70+</h3>
+            <small>Prestasi</small>
+          </div>
+          <div class="col-4">
+            <h3 class="text-primary">1x</h3>
+            <small>Minggu</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="kegiatan" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Kegiatan Kami</h2>
+      <p class="text-muted">Berbagai kegiatan dalam ekstrakurikuler bola voli.</p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center p-4">
+            <div class="display-4 mb-3">🏐</div>
+            <h4>Latihan Teknik</h4>
+            <p>
+              Melatih teknik dasar seperti passing, servis, smash,
+              blocking, dan receive.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center p-4">
+            <div class="display-4 mb-3">🏆</div>
+            <h4>Kompetisi</h4>
+            <p>
+              Mengikuti pertandingan dan turnamen bola voli
+              antar sekolah maupun tingkat daerah.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center p-4">
+            <div class="display-4 mb-3">🤝</div>
+            <h4>Team Building</h4>
+            <p>
+              Membangun kerja sama, komunikasi, kekompakan,
+              dan sportivitas antaranggota.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="jadwal" class="py-5">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="section-title">Jadwal Latihan</h2>
+      <p class="text-muted">Jadwal kegiatan ekstrakurikuler.</p>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover text-center">
+        <thead class="table-primary">
+          <tr>
+            <th>Hari</th>
+            <th>Waktu</th>
+            <th>Kegiatan</th>
+            <th>Tempat</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Kamis</td>
+            <td>13.30 - 16.00</td>
+            <td>Latihan Teknik Dasar</td>
+            <td>Lapangan Voli</td>
+          </tr>
+
+          <tr>
+            <td>Kamis</td>
+            <td>13.30 - 16.00</td>
+            <td>Latihan Taktik & Game</td>
+            <td>Lapangan Voli</td>
+          </tr>
+
+          <tr>
+            <td>Kamis</td>
+            <td>13.00 - 16.00</td>
+            <td>Latihan Bersama</td>
+            <td>Lapangan Voli</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+<section id="kontak" class="py-5 bg-primary text-white">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2>Hubungi Kami</h2>
+      <p>Ingin bergabung dengan ekstrakurikuler bola voli?</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-7">
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Nama</label>
+            <input type="text" class="form-control"
+                   placeholder="Masukkan nama">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control"
+                   placeholder="Masukkan email">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Pesan</label>
+            <textarea class="form-control" rows="4"
+                      placeholder="Tulis pesan..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-light text-primary fw-bold">
+            Kirim Pesan
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-4 text-center">
+  <div class="container">
+    <p class="mb-1">
+      &copy; 2026 Volley Club Sekolah
+    </p>
+    <small>
+      Ekstrakurikuler Bola Voli
+    </small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
